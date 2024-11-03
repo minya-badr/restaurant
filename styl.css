@@ -1,0 +1,427 @@
+header{
+    background: url(6776_Pizza-Dough_ddmfs_4x3_1724-fd91f26e0bd6400a9e89c6866336532b.jpg) center center/cover;
+   height: 60vh;
+   color: #fff;
+   position: relative;
+   margin-bottom: 15px ;
+}
+header::before{
+    content: "";
+    position: absolute;
+    width:100% ;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+header * {
+    z-index: 10;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:10% ;
+}
+nav img{
+    width: 5%;
+}
+nav ul{
+    list-style: none;
+    color: #fff;
+    display: flex;    
+    justify-content: space-around;
+    gap: 20px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.header-content a{
+    text-decoration: none;
+    border:2px solid #e4b95b;;
+    color: #fff;
+    border-radius:7px ;
+    padding: 8px 15px;
+}
+.header-content p{
+    margin-top: 0%;
+}
+.header-content h1{
+    margin-top: 0%;
+}
+span{
+    color:#e4b95b ;
+}
+.about{
+    background-color: beige;
+    color: rgb(175, 174, 174);
+    text-align: center;
+    padding: 10px 60px;
+    padding-bottom: 30px;
+    margin: 0 20px;
+}
+.about h2{
+    color: black;
+}
+.about-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.about2 img{
+    width: 170px;
+    height: 110px;
+    border-radius: 10px;
+}
+.about3 img{
+    width: 170px;
+    height: 110px;
+    border-radius: 10px;
+}
+.about1{
+    width: 60%;
+}
+.about3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:15px ;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.img1{
+    position: relative;
+}
+.img4{
+    position: relative;
+}
+.img1::before{
+    position: absolute;
+    content: "";
+    background:rgba(247, 242, 185, 0.5);
+    width: 100%;
+    height: 97%;
+    border-radius: 10px;
+}
+.img4::before{
+    position: absolute;
+    content: "";
+    background:rgba(247, 242, 185, 0.5);
+    width: 100%;
+    height: 97%;
+    border-radius: 10px;
+}
+.img2{
+    position: relative;
+}
+.img2::before{
+    content: "";
+    position: absolute;
+    width:100% ;
+    height: 97%;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.img3{
+    position: relative;
+}
+.img3::before{
+    content: "";
+    position: absolute;
+    width:100% ;
+    height: 97%;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.about1 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 7px;
+    padding: 8px 15px;
+    align-self: start;
+}
+.button{
+ text-align: left;
+}
+.offers{
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    color: #fff;
+    padding:20px 50px ;
+    margin: 15px 20px;
+}
+.offers-parent{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    margin-top:30px ;
+}
+.offers h2{
+    color: #e4b95b;
+}
+.offers-parent img{
+    border-radius: 100px;
+    width: 120px;
+    height: 100px;
+}
+.p-offer {
+    text-decoration: line-through;
+    color: #fff;
+}
+.offers-parent .span{
+    color: #e4b95b;
+    text-decoration: none;
+}
+.menu{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 15px 30px;
+    margin: 0 20px;
+}
+.dish{
+    display: flex;
+    flex-direction: column;
+}
+.dish .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+}
+.img{
+    position: absolute;
+    top:100px;
+    left: 95px;
+}
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows:repeat(2,auto) ;
+}
+.menu-span{
+    color: black;
+}
+.p1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gray{
+    color: gray;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e4b95b;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.meals{
+    background: #e4b95b;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    margin:15px 20px ;
+}
+.meals img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+.meals .breakfast,.lunch,.dinner,.dessert {
+    text-align: center;
+}
+.gallery{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin: 0 20px;
+}
+.gallery-parent{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    column-gap: 70px;
+    row-gap:40px ;
+}
+.gallery-parent img{
+    width: 350px;
+    height: 180px;
+    border-radius: 15px;
+    justify-content:center ;
+}
+.terminal{
+    color: gray;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 15px 0px;
+    margin: 15px 20px;
+}
+.terminal .contact h3{
+    color: rgb(26, 26, 130);
+    font-size: 25px;
+}
+.terminal p{
+    font-size: 20px;
+}
+.form-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.social-media a i{
+    color: rgb(26, 26, 130);
+    font-size: 25px;
+}
+.address p i{
+    color: #e4b95b;
+}
+.form a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e4b95b;
+    padding: 10px 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: 300px;
+}
+.form ,.form-parent{
+    width: 100%;
+}
+.form{
+    position: relative;
+}
+input{
+    height: 40px;
+}
+input , textarea{
+    display: block;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(13, 13, 45);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin:0 15px;
+    font-size: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+@media (max-width: 600px) {
+    nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav img{
+        width: 30%;
+    }
+    .header-content{
+        margin-top: 5px;
+    }
+    header{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: auto;
+        height: 90%;
+        width: 90%;
+    }
+    .about{
+        margin: 0%;
+        padding: 20px 0 ;
+        width: 90%;
+    }
+    .about-parent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }
+    .about1{
+        width: 100%;
+    }
+    .offers-parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .offers{
+        margin: 15px 0;
+        padding: 20px 0;
+        width: 90%;
+    }
+    .menu-list{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(12,auto);
+    }
+    .img{
+        top: 5px;
+    }
+    .menu{
+        padding: 15px 0;
+        margin: 0;
+        left: 0px;
+        width: 90%;
+    }
+    .meals{
+        margin: 15px 0;
+        width: 90%;
+    }
+    .gallery{
+        margin: 0%;
+        padding: 30px 0;
+        width: 90%;
+    }
+    .gallery-parent img{
+        width: 250px;
+    }
+    .terminal{
+        margin: 15px 0px;
+        width: 90%;
+    }
+    .terminal .contact h3{
+        font-size: 20px;
+    }
+    .terminal p{
+        font-size: 16px;
+    }
+    input , textarea{
+        width: 80%;
+        height: 80%;
+    }
+    .footer{
+        margin: 0;
+        width: 85%;
+    }
+    .form a{
+        padding: 10px 2px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1300px) {
+    header{
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+    .img{
+        left: 250px;
+        top: 0px;
+    }
+}
